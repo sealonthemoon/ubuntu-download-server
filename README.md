@@ -79,6 +79,19 @@ Steps:
 3. USER="seal" -> USER="USERNAME"
 4. CTRL + S, CTRL X
 
+Make executable:
+
+Scripts: 
+
+- execlist.sh
+- execplaylist.sh
+- cleardl.sh
+- clearlist.sh
+- clearplaylist.sh
+
+Command:
+
+- sudo chmod +x execlist.sh
 
 #### Execute script
 
