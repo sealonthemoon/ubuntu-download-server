@@ -26,7 +26,7 @@ echo "|DL| - Downloading content..."
 echo "-----------------------------------------------------"
 while IFS= read -r param; do
     echo "URL:  $param"
-    sudo python3 /usr/local/bin/youtube-dl --user-agent "Mozilla/5.0""$param" -x --audio-format mp3 -cit "$param"
+    sudo python3 /usr/local/bin/youtube-dl --user-agent "Mozilla/5.0""$param" -x --audio-format mp3 --audio-quality 0 -cit "$param"
     echo "Done!"
     echo "-----------------------------------------------------"
 done < "$INPUT_FILE"
