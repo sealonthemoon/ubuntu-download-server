@@ -66,8 +66,6 @@ Steps:
 3. DOWNLOAD_FOLDER="/home/seal/dl" -> DOWNLOAD_FOLDER="YOUR/PATH/dl"
 4. CTRL + S, CTRL X
 
----
-
 Scripts to edit:
 
 - cleardl.sh
