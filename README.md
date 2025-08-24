@@ -35,13 +35,21 @@ Clone repo:
 ### Usage
 
 cleardl.sh : clear 'dl' download folder
+
 clearlist.sh : clear 'dllist' entries
+
 clearplaylist.sh : clear 'dlplaylist' entries
+
 dl : download folder
+
 dllist : list of youtube URLS (videos/music)
+
 dlplaylist : list of youtube URLS (playlists)
+
 execlist.sh : download URLS in dllist
+
 execplaylist.sh : download URLS in dlplaylist
+
 youtube-dl : python script used for downloading
 
 #### Change Path
@@ -90,8 +98,6 @@ All downloads will be saved in dl.
 
 #### Clear scripts
 
-Clear dl folder : sudo ./cleardl.sh
-
-Clear dllist entries : sudo ./clearlist.sh
-
-Clear dlplaylist entries : sudo ./clearplaylist.sh
+- Clear dl folder : sudo ./cleardl.sh
+- Clear dllist entries : sudo ./clearlist.sh
+- Clear dlplaylist entries : sudo ./clearplaylist.sh
